@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Care</title>
+    <style>
+        /* Reset some basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0;
+        }
+
+        /* Navigation Styling */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Main Section */
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin: 30px auto;
+            width: 90%;
+            border-radius: 8px;
+        }
+
+        .main-content img {
+            width: 300px;
+            height: 300px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .main-content .text {
+            margin-left: 20px;
+            max-width: 500px;
+        }
+
+        .main-content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .main-content p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #ff7f50;
+            color: white;
+            margin-top: 30px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .main-content img {
+                width: 80%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Pet Care</h1>
+        <p>Your one-stop destination for everything pets!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Adopt</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+        <img src="https://unsplash.com/photos/a-group-of-three-cats-sitting-next-to-each-other-fXin2Kthl74" alt="Cute Pet">
+        <div class="text">
+            <h2>Why Adopt a Pet?</h2>
+            <p>Adopting a pet means you’re saving a life. Pets bring joy, companionship, and unconditional love into your life. Plus, they can be a great workout buddy and reduce stress!</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Pet Care. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
